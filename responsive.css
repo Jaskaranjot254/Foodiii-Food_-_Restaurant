@@ -1,0 +1,130 @@
+@media (width<1024px) {
+  .active .cards {
+    left: 40%;
+  }
+  .cards{
+    width:400px;
+}
+}
+
+@media (width< 991px) {
+  .text-content {
+    width: 70%;
+    /* height: 400px; */
+  }
+
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+  .navigation-wrap .nav-link {
+    line-height: 1.875rem;
+  }
+
+  .navbar-brand img{
+    margin-left: -80px;
+
+  }
+
+  /* banner */
+
+  .top-banner {
+    padding: 9.375rem 0 9.375rem;
+  }
+
+
+  /* testimonial */
+  .testimonial-section .carousel-item .carousel-caption p{
+    padding: 0;
+  }
+
+  .active .cards {
+    left: 50%;
+  }
+  .cards{
+    width:400px;
+  }
+
+
+}
+
+@media (width <767px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    line-height: 2.0625rem;
+  }
+
+  /* top banner */
+  .top-banner {
+    padding: 10.875rem 0 9.375rem;
+  }
+
+  /* STORY SECTION  */
+  .story-section{
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .text-content {
+    width: 70%;
+    margin-bottom: 400px;
+  }
+
+  .text-content>h2{
+    font-size: smaller;
+  }
+
+  .list{
+    display: block;
+  }
+
+/* testimonial */
+
+.testimonial-section .carousel-item .carousel-caption p{
+  padding: 11rem 3.125rem;
+}
+
+.active .cards {
+  left: 60%;
+}
+.cards{
+  width:250px;
+}
+.listCard li{
+grid-template-columns: none;
+}
+
+}
+
+@media (width<450px) {
+  .active .cards {
+    left: 45%;
+}
+  .cards{
+    width:250px;
+}
+}
+
+
+@media (width< 400px) {
+  .testimonial-section .carousel-item{
+    padding: 13rem 3.125rem;
+  }
+  .text-content {
+    width: auto;
+    margin-bottom: 100px;
+  }
+  .text-content>h2 {
+font-size: .25rem;
+  }
+  .active .cards {
+    left: 35%;
+}
+  .cards{
+    width:250px;
+}
+}
